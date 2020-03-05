@@ -3,9 +3,20 @@
 	padding: 0%;
 }
 
+body{
+	background: url("../img/cloud.jpg");
+	background-size: cover;      
+    background-repeat: no-repeat;  
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto; 
+	background-position:center;
+}
+
 #navbar{
 	width: 100%;
-	height: 100vh;
+	height: 60px;
+	position: fixed;
 }
 
 nav{
@@ -34,6 +45,10 @@ nav ul li a{
 
 nav ul li:hover{
 	background-color: #228822;
+}
+
+#content{
+	margin-top: 60px;
 }
 
 

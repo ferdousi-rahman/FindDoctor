@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('navbar');
+    return view('pages.home');
+});
+
+Route::get('/doctors', function () {
+    return view('pages.doctors');
 });
