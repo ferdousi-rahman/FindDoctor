@@ -1,4 +1,4 @@
-@extends('layout.navbar')
+@extends('layouts.app')
 
 @section('body')
     <h1>Homepage</h1>

@@ -20,3 +20,15 @@ Route::get('/', function () {
 Route::get('/doctors', function () {
     return view('pages.doctors');
 });
+
+Route::get('/hospitals', function () {
+    return view('pages.hospitals');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
